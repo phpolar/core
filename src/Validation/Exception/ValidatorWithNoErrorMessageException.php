@@ -11,9 +11,6 @@ use RuntimeException;
  */
 final class ValidatorWithNoErrorMessageException extends RuntimeException
 {
-    /**
-     * @internal
-     */
     public function __construct(string $targetClass)
     {
         $message = sprintf(

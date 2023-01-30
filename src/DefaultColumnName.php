@@ -17,8 +17,6 @@ final class DefaultColumnName extends AbstractPropertyNameExtractor
     /**
      * Produces the formatted label
      * using the default formatting.
-     *
-     * @internal
      */
     public function getColumnName(): string
     {

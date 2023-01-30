@@ -17,8 +17,6 @@ final class DefaultLabelFormat extends AbstractPropertyNameExtractor
     /**
      * Produces the formatted label
      * using the default formatting.
-     *
-     * @internal
      */
     public function getLabel(): string
     {

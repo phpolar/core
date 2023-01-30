@@ -10,8 +10,6 @@ use ReflectionProperty;
  * Provides a way to *extract* the value of a property.
  *
  * The *extracted* value can be used in a configuration (i.e. validation, formatting, etc.).
- *
- * @internal
  */
 interface PropertyValueSetterInterface
 {
