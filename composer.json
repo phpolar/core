@@ -1,7 +1,7 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
     "name": "phpolar/phpolar-core",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "The internal, core components of the PHPolar Microframework",
     "type": "library",
     "license": "MIT",
@@ -24,18 +24,18 @@
         "php": ">=8.1",
         "ext-mbstring": "*",
         "phpolar/http-response-extensions": "dev-main",
-        "psr/http-message": "^1.0",
-        "psr/http-server-handler": "^1.0",
-        "psr/http-server-middleware": "^1.0"
+        "psr/http-message": "^1.0.1",
+        "psr/http-server-handler": "^1.0.1",
+        "psr/http-server-middleware": "^1.0.1"
     },
     "require-dev": {
         "ext-ast": "*",
         "ext-openssl": "*",
-        "phan/phan": "^5.3",
-        "phpunit/phpunit": "^9.5",
-        "squizlabs/php_codesniffer": "^3.7",
-        "php-coveralls/php-coveralls": "^2.5",
-        "phpstan/phpstan": "^1.8",
+        "phan/phan": "^5.4.1",
+        "phpunit/phpunit": "^9.5.28",
+        "squizlabs/php_codesniffer": "^3.7.1",
+        "php-coveralls/php-coveralls": "^2.5.3",
+        "phpstan/phpstan": "^1.9.14",
         "phpmd/phpmd": "^2.13"
     },
     "scripts": {
