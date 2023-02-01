@@ -4,8 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba11f6928d459a11638a70248303773b",
+    "content-hash": "aaa0bcab5392b779358c5e7e71547a2c",
     "packages": [
+        {
+            "name": "phpolar/http-response-extensions",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpolar/http-response-extensions.git",
+                "reference": "1b0ae849bbfad056a68227b7d8bb9bead4e4aeb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpolar/http-response-extensions/zipball/1b0ae849bbfad056a68227b7d8bb9bead4e4aeb4",
+                "reference": "1b0ae849bbfad056a68227b7d8bb9bead4e4aeb4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "ext-ast": "*",
+                "ext-openssl": "*",
+                "phan/phan": "^5.4",
+                "php-coveralls/php-coveralls": "^2.5",
+                "phpmd/phpmd": "^2.13",
+                "phpstan/phpstan": "^1.9",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.7"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phpolar\\Extensions\\HttpResponse\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Extends the functionality of PSR-7 HTTP Reponses.",
+            "support": {
+                "issues": "https://github.com/phpolar/http-response-extensions/issues",
+                "source": "https://github.com/phpolar/http-response-extensions/tree/main"
+            },
+            "time": "2023-02-01T12:18:19+00:00"
+        },
         {
             "name": "psr/http-message",
             "version": "1.0.1",
@@ -4804,7 +4849,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "phpolar/http-response-extensions": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
