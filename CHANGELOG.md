@@ -1,3 +1,9 @@
+## 0.2.1 (2023-02-01)
+
+### Fix
+
+- use stable phpolar/http-response-extensions
+
 ## 0.2.0 (2023-02-01)
 
 ### Feat
