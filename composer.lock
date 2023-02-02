@@ -4,52 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0fa1d3b8e7586122b2e0b8909f369683",
+    "content-hash": "6c7c096bf90e2d1603c3cdcd4772415a",
     "packages": [
-        {
-            "name": "phpolar/http-response-extensions",
-            "version": "0.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpolar/http-response-extensions.git",
-                "reference": "09dd9f730e1fe71f9c04ba798ce4c6ddc02e2886"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpolar/http-response-extensions/zipball/09dd9f730e1fe71f9c04ba798ce4c6ddc02e2886",
-                "reference": "09dd9f730e1fe71f9c04ba798ce4c6ddc02e2886",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.1"
-            },
-            "require-dev": {
-                "ext-ast": "*",
-                "ext-openssl": "*",
-                "phan/phan": "^5.4",
-                "php-coveralls/php-coveralls": "^2.5",
-                "phpmd/phpmd": "^2.13",
-                "phpstan/phpstan": "^1.9",
-                "phpunit/phpunit": "^9.5",
-                "squizlabs/php_codesniffer": "^3.7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Phpolar\\Extensions\\HttpResponse\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Extends the functionality of PSR-7 HTTP Reponses.",
-            "support": {
-                "issues": "https://github.com/phpolar/http-response-extensions/issues",
-                "source": "https://github.com/phpolar/http-response-extensions/tree/0.1.0"
-            },
-            "time": "2023-02-01T12:15:39+00:00"
-        },
         {
             "name": "psr/http-message",
             "version": "1.0.1",
