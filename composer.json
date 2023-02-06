@@ -1,7 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
     "name": "phpolar/phpolar-core",
-    "version": "0.2.1",
     "description": "The internal, core components of the PHPolar Microframework",
     "type": "library",
     "license": "MIT",
