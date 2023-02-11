@@ -37,7 +37,7 @@
         "phpmd/phpmd": "^2.13"
     },
     "scripts": {
-        "analyze": "phpstan analyze src --level 9",
+        "analyze": "XDEBUG_MODE=off phpstan analyze src --level 9",
         "analyze:strict": "phan --no-progress-bar --strict-type-checking --analyze-twice --color --output-mode=text --color-scheme=light",
         "analyze:dead-code": "@analyze:strict --color-scheme=light --config-file=.phan/config_deadcode.php",
         "check": [
@@ -48,8 +48,8 @@
         "ci:analyze": "composer exec \"@analyze\"",
         "ci:lint": "composer exec \"@lint\"",
         "ci:lint-fix": "composer exec \"@lint-fix\"",
-        "ci:test": "XDEBUG_MODE=coverage composer exec \"@test --configuration=phpunit.dev.xml --coverage-clover=build/logs/clover.xml\"",
-        "ci:generate-coverage-badge": "composer exec \"php-coveralls -v\"",
+        "ci:test": "XDEBUG_MODE=coverage composer exec \"@test --configuration=phpunit.ci.xml --coverage-clover=build/logs/clover.xml\"",
+        "ci:generate-coverage-badge": "composer exec \"php-coveralls -vvv\"",
         "lint": "phpcs",
         "lint-fix": "phpcbf",
         "start:test": [
