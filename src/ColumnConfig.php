@@ -9,5 +9,5 @@ namespace Phpolar\Phpolar\Core;
  */
 enum ColumnConfig
 {
-    case Default;
+    case T_Default;
 }
