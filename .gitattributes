@@ -18,6 +18,7 @@
 /SECURITY.md                export-ignore
 /tests                      export-ignore
 /docs                       export-ignore
+/.vscode                    export-ignore
 *.svg                       export-ignore
 *.png                       export-ignore
 
