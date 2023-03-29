@@ -4,18 +4,16 @@ declare(strict_types=1);
 
 namespace Phpolar\Phpolar\Core;
 
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\TestDox;
 use PHPUnit\Framework\TestCase;
 use ReflectionObject;
 use ReflectionProperty;
 
-/**
- * @covers \Phpolar\Phpolar\Core\AbstractPropertyNameExtractor
- */
+#[CoversClass(AbstractPropertyNameExtractor::class)]
 final class AbstractPropertyNameExtractorTest extends TestCase
 {
-    /**
-     * @testdox Shall immutably set the property name
-     */
+    #[TestDox("Shall immutably set the property name")]
     public function test1()
     {
         $sut = new class() extends AbstractPropertyNameExtractor {};
