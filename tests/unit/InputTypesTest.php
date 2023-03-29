@@ -5,15 +5,16 @@ declare(strict_types=1);
 namespace Phpolar\Phpolar\Core;
 
 use Phpolar\Phpolar\Core\Exception\InvalidInputTypeCastToStringException;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\Attributes\TestDox;
 use PHPUnit\Framework\TestCase;
 
-/**
- * @covers \Phpolar\Phpolar\Core\InputTypes
- * @covers \Phpolar\Phpolar\Core\Exception\InvalidInputTypeCastToStringException
- */
+#[CoversClass(InputTypes::class)]
+#[CoversClass(InvalidInputTypeCastToStringException::class)]
 final class InputTypesTest extends TestCase
 {
-    public function dataProvider(): array
+    public static function dataProvider(): array
     {
         return [
             [
@@ -39,20 +40,15 @@ final class InputTypesTest extends TestCase
         ];
     }
 
-    /**
-     * @test
-     * @dataProvider dataProvider()
-     */
+    #[DataProvider("dataProvider")]
+    #[TestDox("Shall convert to expected string")]
     public function shallConvertToExpectedString(string $expected, InputTypes $inputType)
     {
         $this->assertSame($expected, $inputType->asString());
     }
 
-    /**
-     * @test
-     * @testdox Shall throw an exception when attempting to convert an invalid type to string
-     */
-    public function shallThrowAnException()
+    #[TestDox("Shall throw an exception when attempting to convert an invalid type to string")]
+    public function testb()
     {
         $this->expectException(InvalidInputTypeCastToStringException::class);
         $this->expectExceptionMessage("Attempting to cast an invalid input type to string.");
