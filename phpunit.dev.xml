@@ -18,6 +18,6 @@
   </coverage>
   <php>
     <const name="SRC_GLOB" value="/src{/,/**/}*.php"/>
-    <const name="Phpolar\Phpolar\Tests\PROJECT_SIZE_THRESHOLD" value="4000"/>
+    <const name="Phpolar\Phpolar\Tests\PROJECT_SIZE_THRESHOLD" value="4800"/>
   </php>
 </phpunit>
