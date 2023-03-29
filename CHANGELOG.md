@@ -1,3 +1,13 @@
+## 2.0.0 (2023-03-28)
+
+### BREAKING CHANGE
+
+- Load has been changed to an instance method.
+
+### Refactor
+
+- **ContainerLoader**: remove static method
+
 ## 1.0.0 (2023-03-28)
 
 ### Refactor
