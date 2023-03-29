@@ -16,10 +16,20 @@ Search.appendIndex(
             "summary": "Use\u0020to\u0020configure\u0020column\u0020name\u0020of\u0020record.",
             "url": "classes/Phpolar-Phpolar-Core-ColumnConfig.html"
         },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\ColumnConfig\u003A\u003ADefault",
-            "name": "Default",
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\ColumnConfig\u003A\u003AT_Default",
+            "name": "T_Default",
             "summary": "",
             "url": ""
+        },                {
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\ContainerLoader",
+            "name": "ContainerLoader",
+            "summary": "Configures\u0020a\u0020dependency\u0020injection\u0020container.",
+            "url": "classes/Phpolar-Phpolar-Core-ContainerLoader.html"
+        },                {
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\ContainerLoader\u003A\u003Aload\u0028\u0029",
+            "name": "load",
+            "summary": "Configure\u0020the\u0020container.",
+            "url": "classes/Phpolar-Phpolar-Core-ContainerLoader.html#method_load"
         },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\DefaultColumnName",
             "name": "DefaultColumnName",
@@ -56,44 +66,19 @@ Search.appendIndex(
             "summary": "Exception\u0020thrown\u0020if\u0020an\u0020invalid\u0020input\u0020type\u0020is\u0020cast\u0020to\u0020string.",
             "url": "classes/Phpolar-Phpolar-Core-Exception-InvalidInputTypeCastToStringException.html"
         },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\InputTypes",
-            "name": "InputTypes",
-            "summary": "Contains\u0020most\u0020form\u0020field\u0020input\u0020types.",
-            "url": "classes/Phpolar-Phpolar-Core-InputTypes.html"
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\Globs",
+            "name": "Globs",
+            "summary": "Contains\u0020all\u0020pathname\u0020patterns\nused\u0020by\u0020the\u0020framework.",
+            "url": "classes/Phpolar-Phpolar-Core-Globs.html"
         },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\InputTypes\u003A\u003AasString\u0028\u0029",
-            "name": "asString",
-            "summary": "Convert\u0020the\u0020input\u0020type\u0020representation\u0020to\u0020a\u0020string.",
-            "url": "classes/Phpolar-Phpolar-Core-InputTypes.html#method_asString"
-        },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\InputTypes\u003A\u003ADate",
-            "name": "Date",
-            "summary": "",
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\Globs\u003A\u003AFrameworkDeps",
+            "name": "FrameworkDeps",
+            "summary": "The\u0020frameworks\u0020dependencies\u0020configuration\nis\u0020located\u0020in\u0020the\u0020source\u0020files\u0020of\u0020the\u0020framework.",
             "url": ""
         },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\InputTypes\u003A\u003ANumber",
-            "name": "Number",
-            "summary": "",
-            "url": ""
-        },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\InputTypes\u003A\u003AText",
-            "name": "Text",
-            "summary": "",
-            "url": ""
-        },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\InputTypes\u003A\u003ACheckbox",
-            "name": "Checkbox",
-            "summary": "",
-            "url": ""
-        },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\InputTypes\u003A\u003AHidden",
-            "name": "Hidden",
-            "summary": "",
-            "url": ""
-        },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\InputTypes\u003A\u003AInvalid",
-            "name": "Invalid",
-            "summary": "",
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\Globs\u003A\u003ACustomDeps",
+            "name": "CustomDeps",
+            "summary": "The\u0020custom\u0020dependencies\u0020directory\u0020should\u0020be\nset\u0020up\u0020in\u0020the\u0020application\u0020using\u0020the\u0020framework.",
             "url": ""
         },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\LabelFormatConfig",
@@ -101,8 +86,8 @@ Search.appendIndex(
             "summary": "Use\u0020to\u0020configure\u0020formatting\u0020of\u0020form\u0020field\u0020labels.",
             "url": "classes/Phpolar-Phpolar-Core-LabelFormatConfig.html"
         },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\LabelFormatConfig\u003A\u003ADefault",
-            "name": "Default",
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\LabelFormatConfig\u003A\u003AT_Default",
+            "name": "T_Default",
             "summary": "",
             "url": ""
         },                {
@@ -120,6 +105,36 @@ Search.appendIndex(
             "name": "withPropVal",
             "summary": "Immutably\u0020sets\u0020the\u0020\u0060\u0024val\u0060\u0020to\u0020the\u0020value\u0020of\u0020the\u0020given\u0020property.",
             "url": "classes/Phpolar-Phpolar-Core-PropertyValueSetterInterface.html#method_withPropVal"
+        },                {
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\Routing\\ROUTE_PARAM_PATTERN",
+            "name": "ROUTE_PARAM_PATTERN",
+            "summary": "",
+            "url": "namespaces/phpolar-phpolar-core-routing.html#constant_ROUTE_PARAM_PATTERN"
+        },                {
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\Routing\\RouteNotRegistered",
+            "name": "RouteNotRegistered",
+            "summary": "Represents\u0020the\u0020scenario\u0020when\u0020a\u0020handler\u0020is\u0020not\u0020associated\u0020with\u0020a\u0020given\u0020route.",
+            "url": "classes/Phpolar-Phpolar-Core-Routing-RouteNotRegistered.html"
+        },                {
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\Routing\\RouteParamMap",
+            "name": "RouteParamMap",
+            "summary": "Contains\u0020route\u0020parameters",
+            "url": "classes/Phpolar-Phpolar-Core-Routing-RouteParamMap.html"
+        },                {
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\Routing\\RouteParamMap\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/Phpolar-Phpolar-Core-Routing-RouteParamMap.html#method___construct"
+        },                {
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\Routing\\RouteParamMap\u003A\u003AtoArray\u0028\u0029",
+            "name": "toArray",
+            "summary": "Retrieve\u0020the\u0020entire\u0020contents\u0020of\u0020the\u0020route\u0020parameter\u0020map\nas\u0020an\u0020associative\u0020array.",
+            "url": "classes/Phpolar-Phpolar-Core-Routing-RouteParamMap.html#method_toArray"
+        },                {
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\Routing\\RouteParamNotExists",
+            "name": "RouteParamNotExists",
+            "summary": "Represents\u0020the\u0020scenario\u0020when\u0020a\u0020route\u0020param\u0020does\u0020not\u0020exist.",
+            "url": "classes/Phpolar-Phpolar-Core-Routing-RouteParamNotExists.html"
         },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\SizeNotConfigured",
             "name": "SizeNotConfigured",
@@ -195,6 +210,11 @@ Search.appendIndex(
             "name": "Exception",
             "summary": "",
             "url": "namespaces/phpolar-phpolar-core-exception.html"
+        },                {
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\Routing",
+            "name": "Routing",
+            "summary": "",
+            "url": "namespaces/phpolar-phpolar-core-routing.html"
         },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\Validation",
             "name": "Validation",
