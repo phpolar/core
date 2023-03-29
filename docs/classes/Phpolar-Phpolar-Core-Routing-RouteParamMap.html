@@ -99,16 +99,19 @@
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phpolar.html">Phpolar</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phpolar-phpolar.html">Phpolar</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/phpolar-phpolar-core.html">Core</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/phpolar-phpolar-core-routing.html">Routing</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    ColumnConfig
+    RouteParamMap
 
 
             <div class="phpdocumentor-element__package">
             in package
             <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Phpolar.html">Phpolar</a></li>
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Phpolar-Core.html">Core</a></li>
                             </ul>
         </div>
 
@@ -116,13 +119,13 @@
     </h2>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="ColumnConfig.php"><a href="files/columnconfig.html"><abbr title="ColumnConfig.php">ColumnConfig.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Routing/RouteParamMap.php"><a href="files/routing-routeparammap.html"><abbr title="Routing/RouteParamMap.php">RouteParamMap.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">10</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">Use to configure column name of record.</p>
+            <p class="phpdocumentor-summary">Contains route parameters</p>
 
 
 
@@ -132,40 +135,128 @@
 
 
 
+<h3 id="toc">
+    Table of Contents
+    <a href="#toc" class="headerlink"><i class="fas fa-link"></i></a>
+</h3>
+
+<dl class="phpdocumentor-table-of-contents">
+                        <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Phpolar-Phpolar-Core-Routing-RouteParamMap.html#method___construct">__construct()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Phpolar-Phpolar-Core-Routing-RouteParamMap.html#method_toArray">toArray()</a>
+    <span>
+                                &nbsp;: array&lt;string, string&gt;    </span>
+</dt>
+<dd>Retrieve the entire contents of the route parameter map
+as an associative array.</dd>
+
+        </dl>
 
 
 
-            <section class="phpdocumentor-cases">
-        <h3 class="phpdocumentor-elements__header" id="cases">
-            Cases
-            <a href="classes/Phpolar-Phpolar-Core-ColumnConfig.html#cases" class="headerlink"><i class="fas fa-link"></i></a>
+
+
+
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/Phpolar-Phpolar-Core-Routing-RouteParamMap.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
         </h3>
                     <article
-        class="
-            phpdocumentor-element
-            -enum-case
-        "
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
 >
-    <h4 class="phpdocumentor-element__name" id="enumcase_T_Default">
-        T_Default
-        <a href="" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/Phpolar-Phpolar-Core-Routing-RouteParamMap.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="ColumnConfig.php"><a href="files/columnconfig.html"><abbr title="ColumnConfig.php">ColumnConfig.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="Routing/RouteParamMap.php"><a href="files/routing-routeparammap.html"><abbr title="Routing/RouteParamMap.php">RouteParamMap.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">12</span>
+    <span class="phpdocumentor-element-found-in__line">25</span>
 
     </aside>
 
 
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$unresolvedRoute</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$requestPath</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
 
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$unresolvedRoute</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Should represent the parameterized route, i.e. <code class="prettyprint">/some/path/{id}</code></p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$requestPath</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The actual path from the request, i.e. <code class="prettyprint">/some/path/123</code></p>
+</section>
+
+            </dd>
+            </dl>
+
+
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">mixed</span>
+            &mdash;
+
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_toArray">
+        toArray()
+        <a href="classes/Phpolar-Phpolar-Core-Routing-RouteParamMap.html#method_toArray" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="Routing/RouteParamMap.php"><a href="files/routing-routeparammap.html"><abbr title="Routing/RouteParamMap.php">RouteParamMap.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">47</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Retrieve the entire contents of the route parameter map
+as an associative array.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">toArray</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, string&gt;</span></code>
+
+
+
+
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">array&lt;string, string&gt;</span>
+            &mdash;
 
 
 </article>
             </section>
-
 
 
     <script type="text/javascript">
@@ -243,7 +334,7 @@
 </section>
             </div>
         </div>
-        <a href="classes/Phpolar-Phpolar-Core-ColumnConfig.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/Phpolar-Phpolar-Core-Routing-RouteParamMap.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
