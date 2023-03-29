@@ -18,7 +18,7 @@ final class ContainerLoader
      *
      * @param ArrayAccess<string,mixed> $containerConfig
      */
-    public static function load(
+    public function load(
         ArrayAccess $containerConfig,
         ContainerInterface $container,
     ): void {
