@@ -4,16 +4,14 @@ declare(strict_types=1);
 
 namespace Phpolar\Phpolar\Core;
 
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\TestDox;
 use PHPUnit\Framework\TestCase;
 
-/**
- * @covers \Phpolar\Phpolar\Core\DefaultColumnName
- */
+#[CoversClass(DefaultColumnName::class)]
 final class DefaultColumnNameTest extends TestCase
 {
-    /**
-     * @testdox Shall return the property name with the first letter upper case
-     */
+    #[TestDox("Shall return the property name with the first letter upper case")]
     public function test1()
     {
         $sut = new DefaultColumnName("propName");
