@@ -1,3 +1,9 @@
+## 2.1.0 (2023-03-30)
+
+### Feat
+
+- **Formats**: move formats to core
+
 ## 2.0.0 (2023-03-28)
 
 ### BREAKING CHANGE
