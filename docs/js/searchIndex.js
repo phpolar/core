@@ -66,6 +66,21 @@ Search.appendIndex(
             "summary": "Exception\u0020thrown\u0020if\u0020an\u0020invalid\u0020input\u0020type\u0020is\u0020cast\u0020to\u0020string.",
             "url": "classes/Phpolar-Phpolar-Core-Exception-InvalidInputTypeCastToStringException.html"
         },                {
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\Formats",
+            "name": "Formats",
+            "summary": "Contains\u0020formattable\u0020strings.",
+            "url": "classes/Phpolar-Phpolar-Core-Formats.html"
+        },                {
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\Formats\u003A\u003AErrorTemplates",
+            "name": "ErrorTemplates",
+            "summary": "The\u0020default\u0020location\u0020of\u0020custom\u0020error\u0020templates.",
+            "url": ""
+        },                {
+            "fqsen": "\\Phpolar\\Phpolar\\Core\\Formats\u003A\u003AErrorText",
+            "name": "ErrorText",
+            "summary": "The\u0020default\u0020error\u0020text\u0020to\u0020display",
+            "url": ""
+        },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\Globs",
             "name": "Globs",
             "summary": "Contains\u0020all\u0020pathname\u0020patterns\nused\u0020by\u0020the\u0020framework.",
