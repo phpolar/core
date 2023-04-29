@@ -1,3 +1,9 @@
+## 2.2.0 (2023-04-29)
+
+### Feat
+
+- upgrade psr/http-message to 2.0
+
 ## 2.1.0 (2023-03-30)
 
 ### Feat
