@@ -1,11 +1,11 @@
 <?php
 
-use Phpolar\Phpolar\Tests\Stubs\ResponseFactoryStub;
-use Phpolar\Phpolar\Tests\Stubs\StreamFactoryStub;
+use Phpolar\HttpMessageTestUtils\ResponseFactoryStub;
+use Phpolar\HttpMessageTestUtils\StreamFactoryStub;
 use Psr\Http\Message\ResponseFactoryInterface;
 use Psr\Http\Message\StreamFactoryInterface;
 
 return [
     ResponseFactoryInterface::class => new ResponseFactoryStub(),
-    StreamFactoryInterface::class => static fn () => new StreamFactoryStub(),
+    StreamFactoryInterface::class => static fn () => new StreamFactoryStub("r"),
 ];

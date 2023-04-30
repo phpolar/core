@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Phpolar\Phpolar\Core;
 
+use Phpolar\HttpMessageTestUtils\ResponseFactoryStub;
+use Phpolar\HttpMessageTestUtils\StreamFactoryStub;
 use Phpolar\Phpolar\Tests\Stubs\ConfigurableContainerStub;
 use Phpolar\Phpolar\Tests\Stubs\ContainerConfigurationStub;
 use PHPUnit\Framework\Attributes\CoversClass;
@@ -21,8 +23,8 @@ final class ContainerLoaderTest extends TestCase
     public function test1()
     {
         $containerConfig = new ContainerConfigurationStub();
-        $containerConfig[ResponseFactoryInterface::class] = $this->createStub(ResponseFactoryInterface::class);
-        $containerConfig[StreamFactoryInterface::class] = $this->createStub(StreamFactoryInterface::class);
+        $containerConfig[ResponseFactoryInterface::class] = new ResponseFactoryStub();
+        $containerConfig[StreamFactoryInterface::class] = new StreamFactoryStub("r");
         $container = new ConfigurableContainerStub($containerConfig);
         (new ContainerLoader())->load($containerConfig, $container);
         $this->assertNotEmpty($container->get(ResponseFactoryInterface::class));
