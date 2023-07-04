@@ -1,3 +1,15 @@
+## 3.0.0 (2023-07-03)
+
+### BREAKING CHANGE
+
+- `ContainerLoader` must now be explicitly used before starting the application.
+- `composer require phpolar/core` instead of `phpolar/phpolar-core`
+
+### Refactor
+
+- move classes out of core
+- change name of repo
+
 ## 2.2.0 (2023-04-29)
 
 ### Feat
