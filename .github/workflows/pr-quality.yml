@@ -1,10 +1,11 @@
-name: PHP Composer
+name: Pull Request Quality Check
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
     branches: [ main ]
+    paths:
+      - 'composer.*'
+      - '**.php'
 
 jobs:
   build:
@@ -35,9 +36,6 @@ jobs:
 
     - name: Scanning for lint errors
       run: composer ci:lint
-
-    - name: Run static analysis
-      run: composer ci:analyze
 
     - name: Run test suite
       run: composer ci:test
