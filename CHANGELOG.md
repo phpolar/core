@@ -1,3 +1,34 @@
+## 4.0.0 (2024-12-01)
+
+### BREAKING CHANGE
+
+- `ContainerLoader` must now be explicitly used before starting the application.
+- `composer require phpolar/core` instead of `phpolar/phpolar-core`
+- Load has been changed to an instance method.
+
+### Feat
+
+- upgrade psr/http-message to 2.0
+- **Formats**: move formats to core
+- add http response extensions library
+- initial commit
+
+### Fix
+
+- **composer**: upgrade dependencies
+- exclude unnecessary files from dist
+- exclude unnecessary files from dist
+- add link to api docs
+- use stable phpolar/http-response-extensions
+- **FormControlTypes.php**: move out of core
+
+### Refactor
+
+- move classes out of core
+- change name of repo
+- **ContainerLoader**: remove static method
+- move classes to core
+
 ## 3.0.0 (2023-07-03)
 
 ### BREAKING CHANGE
