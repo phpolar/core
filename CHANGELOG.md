@@ -1,3 +1,9 @@
+## 4.0.1 (2024-12-01)
+
+### Fix
+
+- **RouteParamMap**: decode path variables
+
 ## 4.0.0 (2024-12-01)
 
 ### BREAKING CHANGE
