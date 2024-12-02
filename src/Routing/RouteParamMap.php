@@ -35,7 +35,8 @@ final class RouteParamMap
             $unresolvedRouteParts
         );
         $paramVals = array_intersect_key($requestPathParts, $paramKeys);
-        $this->internalMap = array_combine($paramKeys, $paramVals);
+        $paramValsDecoded = array_map(urldecode(...), $paramVals);
+        $this->internalMap = array_combine($paramKeys, $paramValsDecoded);
     }
 
     /**
