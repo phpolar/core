@@ -33,4 +33,17 @@ final class RouteParamMapTest extends TestCase
         $sut = new RouteParamMap($givenRoute, $givenRequestPath);
         $this->assertEmpty($sut->toArray());
     }
+
+    #[TestWith(["/some/path/{id}", "/some/path/a%20variable%20with%20spaces", "id", ["id" => "a variable with spaces"]])]
+    #[TestWith(["/some/path/{id}", "/some/path/a+variable+with+spaces", "id", ["id" => "a variable with spaces"]])]
+    #[TestDox("Shall decode the parameter values")]
+    public function testd(
+        string $givenRoute,
+        string $givenRequestPath,
+        string $paramKey,
+        array $expectedParsedParams,
+    ) {
+        $sut = new RouteParamMap($givenRoute, $givenRequestPath);
+        $this->assertEquals($sut->toArray($paramKey), $expectedParsedParams);
+    }
 }
