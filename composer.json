@@ -12,7 +12,10 @@
     ],
     "minimum-stability": "stable",
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "platform": {
+            "php": "8.2"
+        }
     },
     "autoload": {
         "psr-4": {
@@ -29,7 +32,6 @@
         }
     },
     "require": {
-        "php": ">=8.1",
         "ext-mbstring": "*",
         "psr/http-message": "^2.0",
         "psr/http-server-handler": "^1.0",
