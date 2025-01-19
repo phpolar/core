@@ -19,17 +19,7 @@ Search.appendIndex(
             "fqsen": "\\Phpolar\\Phpolar\\Core\\ColumnConfig\u003A\u003AT_Default",
             "name": "T_Default",
             "summary": "",
-            "url": ""
-        },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\ContainerLoader",
-            "name": "ContainerLoader",
-            "summary": "Configures\u0020a\u0020dependency\u0020injection\u0020container.",
-            "url": "classes/Phpolar-Phpolar-Core-ContainerLoader.html"
-        },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\ContainerLoader\u003A\u003Aload\u0028\u0029",
-            "name": "load",
-            "summary": "Configure\u0020the\u0020container.",
-            "url": "classes/Phpolar-Phpolar-Core-ContainerLoader.html#method_load"
+            "url": "classes/Phpolar-Phpolar-Core-ColumnConfig.html#enumcase_T_Default"
         },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\DefaultColumnName",
             "name": "DefaultColumnName",
@@ -74,27 +64,12 @@ Search.appendIndex(
             "fqsen": "\\Phpolar\\Phpolar\\Core\\Formats\u003A\u003AErrorTemplates",
             "name": "ErrorTemplates",
             "summary": "The\u0020default\u0020location\u0020of\u0020custom\u0020error\u0020templates.",
-            "url": ""
+            "url": "classes/Phpolar-Phpolar-Core-Formats.html#enumcase_ErrorTemplates"
         },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\Formats\u003A\u003AErrorText",
             "name": "ErrorText",
             "summary": "The\u0020default\u0020error\u0020text\u0020to\u0020display",
-            "url": ""
-        },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\Globs",
-            "name": "Globs",
-            "summary": "Contains\u0020all\u0020pathname\u0020patterns\nused\u0020by\u0020the\u0020framework.",
-            "url": "classes/Phpolar-Phpolar-Core-Globs.html"
-        },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\Globs\u003A\u003AFrameworkDeps",
-            "name": "FrameworkDeps",
-            "summary": "The\u0020frameworks\u0020dependencies\u0020configuration\nis\u0020located\u0020in\u0020the\u0020source\u0020files\u0020of\u0020the\u0020framework.",
-            "url": ""
-        },                {
-            "fqsen": "\\Phpolar\\Phpolar\\Core\\Globs\u003A\u003ACustomDeps",
-            "name": "CustomDeps",
-            "summary": "The\u0020custom\u0020dependencies\u0020directory\u0020should\u0020be\nset\u0020up\u0020in\u0020the\u0020application\u0020using\u0020the\u0020framework.",
-            "url": ""
+            "url": "classes/Phpolar-Phpolar-Core-Formats.html#enumcase_ErrorText"
         },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\LabelFormatConfig",
             "name": "LabelFormatConfig",
@@ -104,7 +79,7 @@ Search.appendIndex(
             "fqsen": "\\Phpolar\\Phpolar\\Core\\LabelFormatConfig\u003A\u003AT_Default",
             "name": "T_Default",
             "summary": "",
-            "url": ""
+            "url": "classes/Phpolar-Phpolar-Core-LabelFormatConfig.html#enumcase_T_Default"
         },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\PropertyTypeNotDeclared",
             "name": "PropertyTypeNotDeclared",
@@ -164,32 +139,32 @@ Search.appendIndex(
             "fqsen": "\\Phpolar\\Phpolar\\Core\\Validation\\DefaultErrorMessages\u003A\u003AMax",
             "name": "Max",
             "summary": "",
-            "url": ""
+            "url": "classes/Phpolar-Phpolar-Core-Validation-DefaultErrorMessages.html#enumcase_Max"
         },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\Validation\\DefaultErrorMessages\u003A\u003AMaxLength",
             "name": "MaxLength",
             "summary": "",
-            "url": ""
+            "url": "classes/Phpolar-Phpolar-Core-Validation-DefaultErrorMessages.html#enumcase_MaxLength"
         },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\Validation\\DefaultErrorMessages\u003A\u003AMin",
             "name": "Min",
             "summary": "",
-            "url": ""
+            "url": "classes/Phpolar-Phpolar-Core-Validation-DefaultErrorMessages.html#enumcase_Min"
         },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\Validation\\DefaultErrorMessages\u003A\u003AMinLength",
             "name": "MinLength",
             "summary": "",
-            "url": ""
+            "url": "classes/Phpolar-Phpolar-Core-Validation-DefaultErrorMessages.html#enumcase_MinLength"
         },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\Validation\\DefaultErrorMessages\u003A\u003APattern",
             "name": "Pattern",
             "summary": "",
-            "url": ""
+            "url": "classes/Phpolar-Phpolar-Core-Validation-DefaultErrorMessages.html#enumcase_Pattern"
         },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\Validation\\DefaultErrorMessages\u003A\u003ARequired",
             "name": "Required",
             "summary": "",
-            "url": ""
+            "url": "classes/Phpolar-Phpolar-Core-Validation-DefaultErrorMessages.html#enumcase_Required"
         },                {
             "fqsen": "\\Phpolar\\Phpolar\\Core\\Validation\\Exception\\ValidatorWithNoErrorMessageException",
             "name": "ValidatorWithNoErrorMessageException",
